@@ -1,23 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script>
+        function resizeImage() {
+            var image = document.getElementById('hallway');
+            var newWidth = 600 + 'px';
+            var newHeight = 450 + 'px';
+            image.style.width = newWidth;
+            image.style.height = newHeight;
+        }
+
+    </script>
+    <style>
+    </style>
     <meta charset="UTF-8">
     <title>SMCS Arena</title>
 </head>
+
 <h1 style = "font-family:Verdana" style = "text-align:center">
     <b> Redesigning SMCS Arena </b>
 </h1>
+
 <img src="Saint_mikes_arena.JPG" alt="The Arena" width = 800 height = 600>
+
 <hr>
+
 <body style = "font-size:80%">
 Made by Matthew, Ryan and Cole
 </body>
+
 <hr>
 <h2 style = font-size:200%>
 What Aspects are we considering when designing the new arena?
 </h2>
 <p style = font-size:120%>
-        To us, the most important things to are accessibility, quality, and usability.
-
+        To us, the most important things to are accessibility, quality, usability, and safety.
 </p>
+<p style = font-size:120%>Aspects of the arena that need improvement are the hallways, dressing rooms, stairs, and benches.
+    <br> Click the buttons below to see how you might add some more accessibility to the arena.</p>
+<button onclick="document.getElementById('myImage').src='SMCS_ARENA_HOF_AND_STAIRS copy.jpg'">Show the new design</button>
+
+<p style = font-size:100%>Ramps are a great way to help disabled people still enjoy our arena</p>
+<img id = 'myImage' src="SMCS_ARENA_HOF_AND_STAIRS.jpg" alt="Stairs" height = 450 width = 600>
+<br>
+<button onclick="resizeImage()">Show the new design</button>
+
+<p style = font-size:100%>The narrow hallways are claustrophobic, and may prevent people in wheelchairs from passing through </p>
+<img id = 'hallway' src="SMCS_ARENA_HALLWAY.jpeg" alt="Hallway" height = "450" width = "300">
+<hr>
+
+<p style = font-size:120%>
+    Some of our dressing rooms are not up to par
+</p>
+
+<button onclick="document.getElementById('dressingRoom').src='SMCS_DRESSING_ROOM_IMPROVED.jpg'" >Show the new design</button>
+<br>
+<img id = 'dressingRoom' src="SMCS_DRESSING_ROOM.jpg" alt="Dressing Room" height="450" width="600">
+
 </html>
