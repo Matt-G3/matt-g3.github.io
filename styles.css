@@ -1,0 +1,36 @@
+html {
+    
+}
+
+header {
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
+.intro {
+    min-height: 100dvh;
+    box-sizing: border-box;
+}
+a:visited {
+    color: #0000EE; /* Replace with your preferred color hex code */
+}
+.stretch-wrap {
+    display: flex;
+    flex-direction:column;
+}
+.spacer {
+    min-height: 15dvh;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+}
+.github-display-wrapper {
+    
+}
+.ball-aquarium {
+    width: 25dvh;
+    color:teal;
+    opacity:0.5;
+}

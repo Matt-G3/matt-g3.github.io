@@ -1,0 +1,1 @@
+const aquariumWrap = document.querySelector('.stretch-wrap');
